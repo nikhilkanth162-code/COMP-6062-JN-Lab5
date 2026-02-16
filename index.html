@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>
+         Week 5 lab
+      </title>
+
+      <link rel="stylesheet" href="style.css"><!-- link css file  -->
+   </head>
+
+    <body>
+
+        <form id="myForm">
+            <label for="mySelect">Choose an option:</label>
+
+                <select id="mySelect">
+                <option value="">-- Select one --</option>
+                <option value="show">Show checkbox</option>
+                <option value="hide">Hide checkbox</option>
+                <option value="other">Other</option>
+                </select>
+
+            <!-- Hidden checkbox + label -->
+            <div id="extraBox" class="hidden">
+                <label>
+                    <input type="checkbox" id="myCheckbox">
+                    Appear only when “Show checkbox” is selected
+                </label>
+            </div>
+
+            <br><br>
+
+            <label for="textInput">Type something and press Enter:</label> <!-- TEXT INPUT -->
+            <input type="text" id="textInput">
+        </form>
+
+
+
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
